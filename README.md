@@ -23,7 +23,7 @@ A Java implementation of Simple HTTP Multithreaded Web Server.
 `$ javac *.java`
 
     *But as we have not created separate directories and are only dealing with server , compile the server code*\
-    `$ javac WebServer.java`
+    `$ javac WebServer.java`\
     *The location for the files to be served should be specified on the command line when running the server or files should be saved in server directory only*
 
 3. Run web server in server directory. If no port is passed, a default 8888 port is used. If port is already in use, a proper error message is displayed.
@@ -43,7 +43,7 @@ We should then be able to start a browser on the same computer, visit `localhost
 There are other many ways of testing your web server : **telnet** server port_num, then type in a GET command (make sure to enter a blank line after the GET command).\
 
   `$ telnet localhost 8888`\
-  `GET /index.html HTTP/1.0`
+  `GET /sample.html HTTP/1.0`
   
   *telnet will exit when it detects that your web server has closed its end of the socket (or you can kill it with ctrl-C, or if that doesn't work use kill or killall: `killall telnet.`*
 
