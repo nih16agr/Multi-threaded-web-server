@@ -1,0 +1,6 @@
+#compiled files
+RequestHandler.class
+webServer.class
+
+#sample static website pages
+/csweb
