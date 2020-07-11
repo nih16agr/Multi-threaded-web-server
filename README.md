@@ -1,6 +1,6 @@
 # Multi-threaded-web-server
 Designed to practice writing client-server socket programs and multithreaded programs.
-A Java implementation of Simple HTTP Web Client and a Multithreaded Web Server. 
+A Java implementation of Simple HTTP Multithreaded Web Server. 
 
 [//]: # (Part1 : socket code [server,client], Part 2: Simplistic Single-Threaded Web Server, Part 3: Simplistic Multithreaded Web Server, Part 4: Better Multi-Threaded Web Server that Handles More HTTP )
 
